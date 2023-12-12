@@ -11,15 +11,14 @@ namespace Tyuiu.NosovaVD.Sprint6.TaskReview.V8.Test
         {
             int k = 2;
             int l = 3;
-            int c = 4;
+            int c = 2;
             DataService ds = new DataService();
-            int[,] array = new int[5, 5]  { { 4, -3, 6, -5, 5},
-                                            { 3, -54, 4, -6, 4 },
-                                            { 6, -4, 6, -4, 5 },
-                                            { 5, -4, 4, -4, 5 },
-                                            { 3, -5, 6, -4, 6 }}; 
+            int[,] array = new int[4, 4]  { { 4, -3, 6, -5},
+                                            { 3, -54, 4, -6},
+                                            { 6, -4, 6, -4 },
+                                            { 5, -4, 4, -4 }}; 
             int res = ds.resultGetMatrix(array, c, k, l);
-            int wait = 15;
+            int wait = 28;
             Assert.AreEqual(wait, res);
         }
     }
