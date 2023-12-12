@@ -70,5 +70,5 @@ namespace Tyuiu.NosovaVD.Sprint6.TaskReview.V8.Lib
             }
             return summ;
         }
-    }
+    } 
 }

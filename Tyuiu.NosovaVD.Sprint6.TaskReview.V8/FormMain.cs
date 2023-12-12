@@ -29,7 +29,6 @@ namespace Tyuiu.NosovaVD.Sprint6.TaskReview.V8
                 dataGridViewOut_NVD.Columns[i].Width = 25;
             }
         }
-
         private void buttonDone_NVD_Click(object sender, EventArgs e)
         {
             try

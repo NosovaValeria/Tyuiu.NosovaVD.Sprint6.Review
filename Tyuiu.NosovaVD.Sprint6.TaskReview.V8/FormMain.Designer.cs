@@ -140,12 +140,13 @@ namespace Tyuiu.NosovaVD.Sprint6.TaskReview.V8
             // 
             this.dataGridViewOut_NVD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewOut_NVD.ColumnHeadersVisible = false;
+            this.dataGridViewOut_NVD.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewOut_NVD.Location = new System.Drawing.Point(3, 18);
             this.dataGridViewOut_NVD.Name = "dataGridViewOut_NVD";
             this.dataGridViewOut_NVD.RowHeadersVisible = false;
             this.dataGridViewOut_NVD.RowHeadersWidth = 51;
             this.dataGridViewOut_NVD.RowTemplate.Height = 24;
-            this.dataGridViewOut_NVD.Size = new System.Drawing.Size(511, 316);
+            this.dataGridViewOut_NVD.Size = new System.Drawing.Size(511, 319);
             this.dataGridViewOut_NVD.TabIndex = 0;
             // 
             // splitterOne_NVD
